@@ -24,7 +24,7 @@ class Slider extends Migration
             $table->string('link_desc'); //текст для ссылки
             $table->text('desc'); //строки текста накладываемые поверх картинки. строки разделять символом ;
             $table->text('div_classes'); //css классы для блоков соержащих строки. классы разделять символом ;
-
+            $table->string('block_class'); //
             $table->timestamps();
 
         });

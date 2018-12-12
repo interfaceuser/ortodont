@@ -18,6 +18,7 @@ class Services extends Migration
             $table->string('name'); //техническое имя
             $table->string('value'); //название сервиса
             $table->string('img'); //путь к картинке
+            $table->string('img_cover'); //путь к картинке при наведении курсора
             $table->string('img_alt'); //путь к картинке
             $table->string('img_title'); //путь к картинке
             $table->integer('order_id'); //порядковый номер картинки
