@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\cert;
 use App\crew;
 use App\param;
 use App\service;
@@ -15,7 +16,8 @@ class mainController extends Controller
         $services = service::orderBy('order_id', 'desc')->get();
         $crew = crew::orderBy('order_id', 'desc')->get();
         $param = param::toList(param::where('par_group', 'common')->get()->toArray());
-        return view('main', ['top_slider' => $slider, 'services' => $services, 'crew' => $crew, 'param' => $param]);
+        $cert = cert::orderBy('order_id', 'desc')->get();
+        return view('main', ['top_slider' => $slider, 'services' => $services, 'crew' => $crew, 'param' => $param, 'cert' => $cert]);
 
     }
     /**

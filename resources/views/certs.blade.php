@@ -5,12 +5,17 @@
         </div>
         <div class="modulebody">
             <div class="lic-out owl-carousel">
-                <div class="lic-in">
-                    <a class="fancybox" href="/img/lic/lic3_big.jpg">
-                        <img alt="Свидетельство 1" class="img-responsive center-block" src="/img/lic/lic3_big-small.jpg" title="Лицензия №1" /> 
-                    </a>
-                </div>
-        </div>
+                
+                    @foreach ($cert as $item)
+                        <div class="lic-in">
+                            <a class="fancybox" href="/img{{$item->link}}">
+                                <img alt="{{$item->img_alt}}" class="img-responsive center-block" src="/img{{$item->img}}" title="{{$item->img_title}}" /> 
+                            </a> 
+                        </div>
+                    @endforeach
+                    
+                
+            </div>
             <script>
                 $('.lic-out').owlCarousel({
                     loop: true,
