@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class News extends Migration
 {
@@ -13,7 +13,16 @@ class News extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('news', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name'); //техническое имя
+            $table->string('img'); //путь к картинке
+            $table->integer('order_id'); //порядковый номер картинки
+            $table->string('link');
+            $table->string('desc');
+
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +32,6 @@ class News extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('news');
     }
 }

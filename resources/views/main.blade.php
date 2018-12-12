@@ -2,7 +2,7 @@
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <base href="https://ortodont-yug.ru" />
+    {{--  <base href="https://ortodont-yug.ru" />  --}}
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="yandex-verification" content="a108643cfb785c0b" />
@@ -10,8 +10,8 @@
 	
 	<link href="/css/concat.css" rel="stylesheet" type="text/css" />
 	
-	<script src="/assets/template/ortodont/js/jquery.js"></script>
-	<script src="/assets/template/ortodont/js/owl.carousel.js"></script>
+	<script src="/js/jquery.js"></script>
+	<script src="/js/owl.carousel.js"></script>
 
 
 	<title>Стоматологическая клиника «ОРТОДОНТиЯ» | Платная стоматология в Краснодаре</title>
@@ -95,7 +95,7 @@
 	</script>
 
 
-<link rel="stylesheet" href="/assets/components/ajaxform/css/default.css" type="text/css" />
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
 </head>
 @include('header')
 @include('slider')

@@ -4,7 +4,7 @@
             <h1>Стоматология &laquo;ОРТОДОНТиЯ&raquo; &mdash; здоровье и красота вашей улыбки!</h1>
 
             <div class="pers-wrapper-main clearfix">
-                <div class="col-xs-4"><img alt="Главный врач стоматологической клиники Никитина Юлия Ивановна" class="img-responsive" src="/assets/template/ortodont/images/pers/1.png" title="Никитина Юлия Ивановна" /></div>
+                <div class="col-xs-4"><img alt="Главный врач стоматологической клиники Никитина Юлия Ивановна" class="img-responsive" src="/img/pers/1.png" title="Никитина Юлия Ивановна" /></div>
 
                 <div class="col-xs-8">
                     <div class="pers-title-main">Мы были первыми и остаемся лидерами в ортодонтии</div>
@@ -23,7 +23,7 @@
                             <div class="pers-main-name">Никитина Юлия Ивановна</div>
                         </div>
 
-                        <div class="col-xs-6"><img alt="Подпись" class="img-responsive pull-right" src="/assets/template/ortodont/images/pers/1p.png" title="Подпись" /></div>
+                        <div class="col-xs-6"><img alt="Подпись" class="img-responsive pull-right" src="/img/pers/1p.png" title="Подпись" /></div>
                     </div>
                 </div>
             </div>
@@ -33,21 +33,21 @@
     <div>
         <div class="pers-block-all">
             <div class="pers-block-out owl-carousel">
-                <div class="pers-block"><a href="specialisty/andryuschenko-viktorija-konstantinovna/"><img alt="Стоматолог-терапевт, ортопед детский стоматолог Андрющенко Виктория Константиновна" title="Андрющенко Виктория Константиновна" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/3.png" /> <span class="pers-title">Андрющенко Виктория Константиновна</span> <span class="pers-work">Стоматолог-терапевт, ортопед детский стоматолог</span> </a></div>
+                <div class="pers-block"><a href="specialisty/andryuschenko-viktorija-konstantinovna/"><img alt="Стоматолог-терапевт, ортопед детский стоматолог Андрющенко Виктория Константиновна" title="Андрющенко Виктория Константиновна" class="img-responsive center-block" src="/img/pers/3.png" /> <span class="pers-title">Андрющенко Виктория Константиновна</span> <span class="pers-work">Стоматолог-терапевт, ортопед детский стоматолог</span> </a></div>
 
-                <div class="pers-block"><a href="specialisty/mienko-yulija-aleksandrovna/"><img alt="Стоматолог-терапевт, врач-ортопед Миенко Юлия Александровна" title="Миенко Юлия Александровна" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/4.png" /> <span class="pers-title">Миенко Юлия Александровна</span> <span class="pers-work">Стоматолог-терапевт, врач-ортопед</span> </a></div>
+                <div class="pers-block"><a href="specialisty/mienko-yulija-aleksandrovna/"><img alt="Стоматолог-терапевт, врач-ортопед Миенко Юлия Александровна" title="Миенко Юлия Александровна" class="img-responsive center-block" src="/img/pers/4.png" /> <span class="pers-title">Миенко Юлия Александровна</span> <span class="pers-work">Стоматолог-терапевт, врач-ортопед</span> </a></div>
 
-                <div class="pers-block"><a href="specialisty/manucharjan-artur-albertovich/"><img alt="Врач-ортодонт Манучарян Артур Альбертович" title="Манучарян Артур Альбертович" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/5.png" /> <span class="pers-title">Манучарян Артур Альбертович</span> <span class="pers-work">Врач-ортодонт</span> </a></div>
+                <div class="pers-block"><a href="specialisty/manucharjan-artur-albertovich/"><img alt="Врач-ортодонт Манучарян Артур Альбертович" title="Манучарян Артур Альбертович" class="img-responsive center-block" src="/img/pers/5.png" /> <span class="pers-title">Манучарян Артур Альбертович</span> <span class="pers-work">Врач-ортодонт</span> </a></div>
 
-                <div class="pers-block"><a href="specialisty/daurova-alla-zaurbievna/"><img alt="Врач-ортодонт Даурова Алла Заурбиевна" title="Даурова Алла Заурбиевна" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/6.png" /> <span class="pers-title">Даурова Алла Заурбиевна</span> <span class="pers-work">Врач-ортодонт</span> </a></div>
+                <div class="pers-block"><a href="specialisty/daurova-alla-zaurbievna/"><img alt="Врач-ортодонт Даурова Алла Заурбиевна" title="Даурова Алла Заурбиевна" class="img-responsive center-block" src="/img/pers/6.png" /> <span class="pers-title">Даурова Алла Заурбиевна</span> <span class="pers-work">Врач-ортодонт</span> </a></div>
 
-                <div class="pers-block"><a href="specialisty/flikjan-lilit-gegamovna/"><img alt="Врач-ортодонт Фликян Лилит Гегамовна" title="Фликян Лилит Гегамовна" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/7.png" /> <span class="pers-title">Фликян Лилит Гегамовна</span> <span class="pers-work">Врач-ортодонт</span> </a></div>
+                <div class="pers-block"><a href="specialisty/flikjan-lilit-gegamovna/"><img alt="Врач-ортодонт Фликян Лилит Гегамовна" title="Фликян Лилит Гегамовна" class="img-responsive center-block" src="/img/pers/7.png" /> <span class="pers-title">Фликян Лилит Гегамовна</span> <span class="pers-work">Врач-ортодонт</span> </a></div>
 
-                <div class="pers-block"><a href="specialisty/lalieva-zarina-valerevna/"><img alt="Стоматолог-терапевт, врач-ортопед Лалиева Зарина Валерьевна" title="Лалиева Зарина Валерьевна" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/8.png" /> <span class="pers-title">Лалиева Зарина Валерьевна</span> <span class="pers-work">Стоматолог-терапевт, врач-ортопед</span> </a></div>
+                <div class="pers-block"><a href="specialisty/lalieva-zarina-valerevna/"><img alt="Стоматолог-терапевт, врач-ортопед Лалиева Зарина Валерьевна" title="Лалиева Зарина Валерьевна" class="img-responsive center-block" src="/img/pers/8.png" /> <span class="pers-title">Лалиева Зарина Валерьевна</span> <span class="pers-work">Стоматолог-терапевт, врач-ортопед</span> </a></div>
 
-                <div class="pers-block"><a href="specialisty/sabanova-zaira-valerevna/"><img alt="Стоматолог-ортодонт Сабанова Заира Валерьевна" title="Сабанова Заира Валерьевна" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/12.png" /> <span class="pers-title">Сабанова Заира Валерьевна</span> <span class="pers-work">Стоматолог-ортодонт</span> </a></div>
+                <div class="pers-block"><a href="specialisty/sabanova-zaira-valerevna/"><img alt="Стоматолог-ортодонт Сабанова Заира Валерьевна" title="Сабанова Заира Валерьевна" class="img-responsive center-block" src="/img/pers/12.png" /> <span class="pers-title">Сабанова Заира Валерьевна</span> <span class="pers-work">Стоматолог-ортодонт</span> </a></div>
 
-                <div class="pers-block"><a href="javascript:void(0)"><img alt="Мед сестра Устинова Карина Александровна" title="Устинова Карина Александровна" class="img-responsive center-block" src="/assets/template/ortodont/images/pers/9.png" /> <span class="pers-title">Устинова Карина Александровна</span> <span class="pers-work">Мед сестра</span> </a></div>
+                <div class="pers-block"><a href="javascript:void(0)"><img alt="Мед сестра Устинова Карина Александровна" title="Устинова Карина Александровна" class="img-responsive center-block" src="/img/pers/9.png" /> <span class="pers-title">Устинова Карина Александровна</span> <span class="pers-work">Мед сестра</span> </a></div>
             </div>
         </div>
         <script>

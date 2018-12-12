@@ -7,7 +7,7 @@
             <div class="clearfix row">
                 <div class="news-block clearfix col-xs-6">
                     <div class="news-img col-xs-4">
-                        <img src="/assets/template/ortodont/images/photos/small/article140.jpg" class="img-responsive" alt="Наши ортодонты посетили семинар &quot;ЭVOLUTION принципов эстетико - функциональной реабилитации пациентов." />
+                        <img src="/img/photos/small/article140.jpg" class="img-responsive" alt="Наши ортодонты посетили семинар &quot;ЭVOLUTION принципов эстетико - функциональной реабилитации пациентов." />
                     </div>
                     <div class="news-desc col-xs-8">
 
@@ -19,7 +19,7 @@
                 </div>
                 <div class="news-block clearfix col-xs-6">
                     <div class="news-img col-xs-4">
-                        <img src="/assets/template/ortodont/images/photos/small/article126.jpg" class="img-responsive" alt="Первая научная статья" />
+                        <img src="/img/photos/small/article126.jpg" class="img-responsive" alt="Первая научная статья" />
                     </div>
                     <div class="news-desc col-xs-8">
 
@@ -31,7 +31,7 @@
                 </div>
                 <div class="news-block clearfix col-xs-6">
                     <div class="news-img col-xs-4">
-                        <img src="/assets/template/ortodont/images/photos/small/article107.jpg" class="img-responsive" alt="Друзья, клиника &quot;ОРТОДОНиЯ&quot; запускает новогодний розыгрыш." />
+                        <img src="/img/photos/small/article107.jpg" class="img-responsive" alt="Друзья, клиника &quot;ОРТОДОНиЯ&quot; запускает новогодний розыгрыш." />
                     </div>
                     <div class="news-desc col-xs-8">
 
@@ -43,7 +43,7 @@
                 </div>
                 <div class="news-block clearfix col-xs-6">
                     <div class="news-img col-xs-4">
-                        <img src="/assets/template/ortodont/images/photos/small/article106.jpg" class="img-responsive" alt="Входим в ТОП 10 стоматологий г. Краснодар." />
+                        <img src="/img/photos/small/article106.jpg" class="img-responsive" alt="Входим в ТОП 10 стоматологий г. Краснодар." />
                     </div>
                     <div class="news-desc col-xs-8">
 

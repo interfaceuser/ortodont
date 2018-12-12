@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("d-goals.js -> ok"),$("a.zapis-priem-button").on("click",function(){setTimeout(function(){$('form#dspriem-form input[type="submit"]').one("click",function(){})},1500)}),setTimeout(function(){$('form#dsconsult-form input[type="submit"]').click(function(){})},2e3),$('a[href^="tel:"]').click(function(){})});

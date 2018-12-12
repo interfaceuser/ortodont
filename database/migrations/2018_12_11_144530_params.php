@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class Params extends Migration
 {
@@ -13,7 +13,16 @@ class Params extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('params', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name'); //техническое имя
+            $table->string('par_group'); //группа к которой относится параметр. например common это общие куда можно отнести
+            //почту, телефон, время работы. нужно чтобы не выбирать сразу всю таблицу
+            $table->string('par_type'); //тип параметра например 'int' 'string'
+            $table->string('value');
+
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +32,6 @@ class Params extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('params');
     }
 }

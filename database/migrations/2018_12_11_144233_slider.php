@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class Slider extends Migration
 {
@@ -13,7 +13,21 @@ class Slider extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('slider', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name'); //техническое имя
+            $table->string('img'); //путь к картинке
+            $table->string('img_alt'); //
+            $table->string('img_title'); //
+            $table->integer('order_id'); //порядковый номер картинки в слайдере
+            $table->string('link');
+            $table->string('link_desc'); //текст для ссылки
+            $table->text('desc'); //строки текста накладываемые поверх картинки. строки разделять символом ;
+            $table->text('div_classes'); //css классы для блоков соержащих строки. классы разделять символом ;
+
+            $table->timestamps();
+
+        });
     }
 
     /**
@@ -23,6 +37,6 @@ class Slider extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('slider');
     }
 }

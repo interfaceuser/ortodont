@@ -23,7 +23,7 @@
                 </div>
                 -->
             </div>
-            <img alt="Стоматологическая клиника" class="img-responsive center-block" src="/assets/template/ortodont/images/slides/newSlide1.jpg" title="Стоматологическая клиника" /></div>
+            <img alt="Стоматологическая клиника" class="img-responsive center-block" src="/img/slides/newSlide1.jpg" title="Стоматологическая клиника" /></div>
 
         <div class="slider-block">
             <div class="slider-info">
@@ -48,7 +48,7 @@
                 </div>
                 -->
             </div>
-            <img alt="Ортодонтическая клиника" class="img-responsive center-block" src="/assets/template/ortodont/images/slides/newSlide2.jpg" title="Ортодонтическая клиника" /></div>
+            <img alt="Ортодонтическая клиника" class="img-responsive center-block" src="/img/slides/newSlide2.jpg" title="Ортодонтическая клиника" /></div>
 
         <div class="slider-block">
             <div class="slider-info">
@@ -73,7 +73,7 @@
                 </div>
                 -->
             </div>
-            <img alt="Стоматология в Краснодаре" class="img-responsive center-block" src="/assets/template/ortodont/images/slides/1.jpg" title="Стоматология в Краснодаре" /></div>
+            <img alt="Стоматология в Краснодаре" class="img-responsive center-block" src="/img/slides/1.jpg" title="Стоматология в Краснодаре" /></div>
     </div>
     <script>
         $('.slider-wrapper').owlCarousel({

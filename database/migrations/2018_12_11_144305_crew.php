@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class Crew extends Migration
 {
@@ -13,7 +13,17 @@ class Crew extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('crew', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name'); //техническое имя
+            $table->string('img'); //путь к картинке
+            $table->integer('order_id'); //порядковый номер картинки
+            $table->string('link');
+            $table->string('man_name'); //инициалы сотрудника
+            $table->string('desc'); //описание сотрудника
+
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +33,6 @@ class Crew extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('crew');
     }
 }

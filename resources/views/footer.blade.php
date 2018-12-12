@@ -3,7 +3,7 @@
         <div class="footer__top">
             <div class="footer__logo">
                 <a href="">
-<img src="/assets/template/ortodont/images/logo.png" class="img-responsive">
+<img src="/img/logo.png" class="img-responsive">
 </a>
             </div>
             <div class="topmenu-wrapper footer__menu">
@@ -282,10 +282,10 @@
         <div class="footer__middle">
             <div class="footer__soc">
                 <ul>
-                    <li><a href="https://vk.com/ortodontya" target="_blank"><img src="/assets/template/ortodont/images/vk.svg" alt=""></a></li>
-                    <li><a href="https://www.facebook.com/ortodontya" target="_blank"><img src="/assets/template/ortodont/images/fcb.svg" alt=""></a></li>
-                    <li><a href="https://odnoklassniki.ru/ortodontya" target="_blank"><img src="/assets/template/ortodont/images/odn.svg" alt=""></a></li>
-                    <li><a href="https://www.instagram.com/ortodontiya_krasnodar" target="_blank"><img src="/assets/template/ortodont/images/inst.svg" alt=""></a></li>
+                    <li><a href="https://vk.com/ortodontya" target="_blank"><img src="/img/vk.svg" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/ortodontya" target="_blank"><img src="/img/fcb.svg" alt=""></a></li>
+                    <li><a href="https://odnoklassniki.ru/ortodontya" target="_blank"><img src="/img/odn.svg" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/ortodontiya_krasnodar" target="_blank"><img src="/img/inst.svg" alt=""></a></li>
                 </ul>
             </div>
             <div class="footer__addres">
@@ -312,7 +312,7 @@
         </div>
         <div class="footer__logo__mobile">
             <a href="">
-<img src="/assets/template/ortodont/images/logo.png" class="img-responsive">
+<img src="/img/logo.png" class="img-responsive">
 </a>
         </div>
 

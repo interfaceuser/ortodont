@@ -20,7 +20,7 @@
                 <div class="map-block">
                     <div class="map-title">Email:</div>
                     <span itemprop="email"><a href="mailto:ortodont-yug@mail.ru">ortodont-yug@mail.ru</a></span>
-                    <span style="display: none">	<img src="/assets/template/ortodont/images/logo.png" itemprop="image" alt="Ортодонтия - стоматология в Краснодаре"/>
+                    <span style="display: none">	<img src="/img/logo.png" itemprop="image" alt="Ортодонтия - стоматология в Краснодаре"/>
 <span itemprop="priceRange">RUB</span></span>
                 </div>
             </div>

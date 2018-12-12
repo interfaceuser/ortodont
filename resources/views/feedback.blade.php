@@ -8,7 +8,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article102.jpg" class="img-responsive center-block" alt="Маргарита" />
+                            <img src="/img/photos/small/article102.jpg" class="img-responsive center-block" alt="Маргарита" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -23,7 +23,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article103.jpg" class="img-responsive center-block" alt="Ольга Гаврилова" />
+                            <img src="/img/photos/small/article103.jpg" class="img-responsive center-block" alt="Ольга Гаврилова" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -38,7 +38,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article101.jpg" class="img-responsive center-block" alt="Надежда Волкова" />
+                            <img src="/img/photos/small/article101.jpg" class="img-responsive center-block" alt="Надежда Волкова" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -53,7 +53,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article100.jpg" class="img-responsive center-block" alt="Потапов Петр" />
+                            <img src="/img/photos/small/article100.jpg" class="img-responsive center-block" alt="Потапов Петр" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -68,7 +68,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article2.jpg" class="img-responsive center-block" alt="Анна Синявская" />
+                            <img src="/img/photos/small/article2.jpg" class="img-responsive center-block" alt="Анна Синявская" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -83,7 +83,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article3.jpg" class="img-responsive center-block" alt="Элла Тополя" />
+                            <img src="/img/photos/small/article3.jpg" class="img-responsive center-block" alt="Элла Тополя" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -98,7 +98,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article4.jpg" class="img-responsive center-block" alt="Инна Есипенко" />
+                            <img src="/img/photos/small/article4.jpg" class="img-responsive center-block" alt="Инна Есипенко" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -113,7 +113,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/photos/small/article1.jpg" class="img-responsive center-block" alt="Лилия Братковская" />
+                            <img src="/img/photos/small/article1.jpg" class="img-responsive center-block" alt="Лилия Братковская" />
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -135,7 +135,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/k/r1.jpg" class="img-responsive center-block">
+                            <img src="/img/k/r1.jpg" class="img-responsive center-block">
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -153,7 +153,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/k/r2.jpg" class="img-responsive center-block">
+                            <img src="/img/k/r2.jpg" class="img-responsive center-block">
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -171,7 +171,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/k/r3.jpg" class="img-responsive center-block">
+                            <img src="/img/k/r3.jpg" class="img-responsive center-block">
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -190,7 +190,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/k/r4.jpg" class="img-responsive center-block">
+                            <img src="/img/k/r4.jpg" class="img-responsive center-block">
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -209,7 +209,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/k/r5.jpg" class="img-responsive center-block">
+                            <img src="/img/k/r5.jpg" class="img-responsive center-block">
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">
@@ -225,7 +225,7 @@
                 <div class="rew-block">
                     <div class="clearfix wrapper-info-rew">
                         <div class="rew-images">
-                            <img src="/assets/template/ortodont/images/k/r6.jpg" class="img-responsive center-block">
+                            <img src="/img/k/r6.jpg" class="img-responsive center-block">
                         </div>
                         <div class="rew-description">
                             <div class="rew-name">

@@ -1,6 +1,6 @@
 <header>
     <div class="header__logo">
-        <a href=""><img src="/assets/template/ortodont/images/logo.png" class="img-responsive"></a>
+        <a href=""><img src="/img/logo.png" class="img-responsive"></a>
     </div>
     <div class="header__adress">
         <div class="header__adress__time__text">Время работы:</div>
@@ -319,7 +319,7 @@
                     <a href="https://www.facebook.com/ortodontya" target="_blank" rel="nofollow"></a>
                     <a href="https://odnoklassniki.ru/ortodontya" target="_blank" rel="nofollow"></a>
                     <a href="https://www.instagram.com/ortodontiya_krasnodar" target="_blank" rel="nofollow"></a>
-                    <div id="finevision_banner" onclick="finevision.activate_navbar()"><img width="30" src="/assets/template/ortodont/images/bvi.png">
+                    <div id="finevision_banner" onclick="finevision.activate_navbar()"><img width="30" src="/img/bvi.png">
                         <script src="https://finevision.ru/static/js/finevision_banner.js"></script>
                     </div>
 
