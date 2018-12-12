@@ -1,3 +1,4 @@
+<html>
 <head>
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -5,14 +6,10 @@
     {{--  <base href="https://ortodont-yug.ru" />  --}}
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="yandex-verification" content="a108643cfb785c0b" />
-	<meta name="google-site-verification" content="7mXQh99EmrJGMC_arOhwPviAOpfG9CLF_h0nZT0cLGc" />
-	
 	<link href="/css/concat.css" rel="stylesheet" type="text/css" />
 	
 	<script src="/js/jquery.js"></script>
 	<script src="/js/owl.carousel.js"></script>
-
 
 	<title>Стоматологическая клиника «ОРТОДОНТиЯ» | Платная стоматология в Краснодаре</title>
 	<meta name="keywords" content="стоматология краснодар клиника платная сайт стоматологическая зубная ортодонтия" />
@@ -46,34 +43,6 @@
 		var LANG_SELECT = 'Выбрать';
 
 	</script>
-	<meta name="yandex-verification" content="605e564096eba8ef" />
-	<script>
-		(window.Image ? (new Image()) : document.createElement('img')).src = '//vk.com/rtrg?p=VK-RTRG-172189-fQJ1Q';
-
-	</script>
-	
-
-	<meta name="yandex-verification" content="efdb5e87c51b83d2" />
-	<meta name="google-site-verification" content="Ysl5ytEC48lh4NI04kYHaW5rY47AEL_R0ThyIHANB8I" />
-
-
-	<!--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<script src="ds-comf/ds-form/js/dsforms.js"></script>
-        <script>
-
-            $(document).ready(function(){
-              $('.zapis-priem-button').dsform({
-                  formID : 'dspriem',
-              });
-              $('div.buttonzap').dsform({
-                  formID : 'dspriem',
-              });
-              $('.callback__dsform,.slider-text').dsform({
-                 formID: 'dscallme'
-             });
-          });
-
-
-        </script>-->
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -96,7 +65,12 @@
 
 
 <link rel="stylesheet" href="/css/default.css" type="text/css" />
+<link rel="stylesheet" href="/css/owl.carousel.css" type="text/css" />
+<link rel="stylesheet" href="/css/font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="/css/concat.css" type="text/css" />
 </head>
+
+<body>
 @include('header')
 @include('slider')
 @include('services')
@@ -110,3 +84,7 @@
 @include('form')
 @include('contacts')
 @include('footer')
+@include('podval')
+</body>
+
+</html>

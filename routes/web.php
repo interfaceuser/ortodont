@@ -12,3 +12,5 @@
  */
 
 Route::get('/', 'mainController@index');
+Route::post('/request/vizit', 'mainController@vizitRequest');
+Route::post('/request/callback', 'mainController@callbackRequest');
