@@ -50,7 +50,7 @@
       </div>
       <div class="field-7 fromcall inline">
          <label>Вид приема</label>
-         <select name="vid-priema" value="">
+         <select name="vidpriema" value="">
             <option value="Лечебный" selected="">Лечебный</option>
             <option value="Хирургический">Хирургический</option>
             <option value="Ортодонтический">Ортодонтический</option>
@@ -58,7 +58,7 @@
       </div>
       <div class="field-8 fromcall inline">
          <label>Вариант подтверждения заявки</label>
-         <select name="validate-zayavka" value="">
+         <select name="validatezayavka" value="">
             <option value="Звонок от менеджера" selected="">Звонок от менеджера</option>
             <option value="Электронная почта">Электронная почта</option>
             <option value="Смс-сообщение">Смс-сообщение</option>

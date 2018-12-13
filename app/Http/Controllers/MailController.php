@@ -33,15 +33,20 @@ class MailController extends Controller
      */
     public function vizitRequest()
     {
-        // $data['name'] = $r->name;
-        // $data['phone'] = $r->phone;
-        // Mail::plain('mail.callback', $data, function ($message) {
-        //     $param = param::toList(param::where('par_group', 'common')->get()->toArray());
-        //     $message->to($param['email'], 'John Doe');
+        $data['name'] = $r->name;
+        $data['phone'] = $r->phone;
+        $data['email'] = $r->email;
+        $data['date'] = $r->datapriema;
+        $data['time'] = $r->time;
+        $data['vidpriema'] = $r->vidpriema;
+        $data['phone'] = $r->sposob;
+        Mail::plain('mail.callback', $data, function ($message) {
+            $param = param::toList(param::where('par_group', 'common')->get()->toArray());
+            $message->to($param['email'], 'John Doe');
 
-        //     $message->subject('Subject');
+            $message->subject('Subject');
 
-        // });
+        });
         return '';
     }
 }
