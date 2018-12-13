@@ -17,6 +17,10 @@ class Gallery extends Migration
             $table->increments('id');
             $table->string('name'); //техническое имя
             $table->string('img'); //путь к картинке
+            $table->string('img_alt');
+            $table->string('img_title');
+            $table->string('img_big');
+            $table->string('img_big_alt');
             $table->integer('order_id'); //порядковый номер картинки
             $table->string('link');
 

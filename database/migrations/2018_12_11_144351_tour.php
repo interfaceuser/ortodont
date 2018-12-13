@@ -17,6 +17,8 @@ class Tour extends Migration
             $table->increments('id');
             $table->string('name'); //техническое имя
             $table->string('img'); //путь к картинке
+            $table->string('img_alt');
+            $table->string('img_title');
             $table->integer('order_id'); //порядковый номер картинки
             $table->string('link');
 
