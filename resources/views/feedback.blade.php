@@ -4,22 +4,26 @@
             Отзывы о клинике
         </div>
         <div class="modulebody">
+
             <div class="rew-block-wrapper owl-carousel">
-                <div class="rew-block">
-                    <div class="clearfix wrapper-info-rew">
-                        <div class="rew-images">
-                            <img src="/img/photos/small/article102.jpg" class="img-responsive center-block" alt="Маргарита" />
-                        </div>
-                        <div class="rew-description">
-                            <div class="rew-name">
-                                <a href="otzyvy/margarita.html">Маргарита</a>
+                @foreach ($feedback as $item)
+                    <div class="rew-block">
+                        <div class="clearfix wrapper-info-rew">
+                            <div class="rew-images">
+                                <img src="/img{{$item->img}}" class="img-responsive center-block" alt="{{$item->img_alt}}" />
                             </div>
-                            <div class="mod_latest_desc">
-                                Сама себе завидую как же это круто широко улыбаться без всякого стеснения!&nbsp;Спасибо огромное лучшей клинике&nbsp;Ортодонтия и прекрасному профессиональному коллективу.&nbsp;Огромная благодарность лучшему доктору и просто...
+                            <div class="rew-description">
+                                <div class="rew-name">
+                                    <a href="{{$item->link}}">{{$item->name}}</a>
+                                </div>
+                                <div class="mod_latest_desc">
+                                    {{$item->value}}
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                @endforeach
+                
 
             </div>
             <a href="otzyvy" class="btn-link-photo btn-rew">Все отзывы</a>

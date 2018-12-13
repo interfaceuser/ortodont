@@ -15,34 +15,6 @@
 	<meta name="keywords" content="стоматология краснодар клиника платная сайт стоматологическая зубная ортодонтия" />
 	<meta name="description" content="Стоматологическая клиника «ОРТОДОНТиЯ» предлагает лучшие методы лечения и зубной ортодонтии в Краснодаре. Платная стоматология в нашей клинике – это индивидуальный подход, доступные цены и высокое качество. Подробности на сайте и по телефону 8 (800) 250-57-74." />
 	
-	<script>
-		var TEMPLATE = "_default_";
-
-	</script>
-	<script type="text/javascript">
-		var LANG_CBOX_IMAGE = 'Фото';
-		var LANG_CBOX_FROM = 'из';
-		var LANG_CBOX_PREVIOUS = 'Предыдущее';
-		var LANG_CBOX_NEXT = 'Следующее';
-		var LANG_CBOX_CLOSE = 'Закрыть';
-		var LANG_CBOX_XHR_ERROR = 'Не удалось загрузить контент.';
-		var LANG_CBOX_IMG_ERROR = 'Не удалось загрузить фото.';
-		var LANG_CBOX_SLIDESHOWSTOP = 'Остановить слайдшоу';
-		var LANG_CBOX_SLIDESHOWSTART = 'Запустить слайдшоу';
-		var LANG_SEND = 'Отправить';
-		var LANG_CONTINUE = 'Продолжить';
-		var LANG_CLOSE = 'Закрыть';
-		var LANG_SAVE = 'Сохранить';
-		var LANG_CANCEL = 'Отмена';
-		var LANG_ATTENTION = 'Внимание';
-		var LANG_CONFIRM = 'Подтверждение действия';
-		var LANG_LOADING = 'Загрузка';
-		var LANG_ERROR = 'Ошибка';
-		var LANG_ADD = 'Добавить';
-		var LANG_SELECT_CITY = 'Выберите город';
-		var LANG_SELECT = 'Выбрать';
-
-	</script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -68,6 +40,9 @@
 <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css" />
 <link rel="stylesheet" href="/css/font-awesome.css" type="text/css" />
 <link rel="stylesheet" href="/css/concat.css" type="text/css" />
+
+<script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+
 </head>
 
 <body>

@@ -1,18 +1,20 @@
+
 <!--Модальные окна -->
 <div id="feedback">
-   <form class="ajax_form" id="dscallme-form" method="post" enctype="multipart/form-data" novalidate="">
+   <form class="ajax_form" id="callback" method="post" enctype="multipart/form-data" novalidate="" >
+      {{ csrf_field() }}
       <div class="form-head">Заказать звонок</div>
       <div class="field-1">
          <label for="field-id203412">Ваше имя</label>
-         <input id="field-id203412" name="field-name203412" placeholder="Как к Вам обращаться?" value="" pattern="" type="text">
+         <input id="field-id203412" name="name" placeholder="Как к Вам обращаться?" value="" pattern="" type="text">
       </div>
       <div class="field-2">
          <label for="field-id238580">Ваш телефон <span class="required">*</span></label>
-         <input id="field-id238580" name="field-name238580" placeholder="+ 7 (___) ___-__-__" value="" required="" pattern="^\+?[\d,\-,(,),\s]+$" data-dsform-mask="+7 (999) 999-99-99" type="text">
+         <input id="field-id238580" name="phone" placeholder="+ 7 (___) ___-__-__" value="" required="" pattern="^\+?[\d,\-,(,),\s]+$" data-dsform-mask="+7 (999) 999-99-99" type="text">
       </div>
       <div class="policy" style="text-align:center;font-size:12px;">Нажимая на кнопку "Отправить", Вы соглашаетесь с<br> <a href="/soglasie-na-obrabotku-personalnih-dannyh.html">правилами обработки персональных данных</a>.</div>
       <div class="field-4 buttonform">
-         <input value="Отправить" type="submit">
+         <input value="Отправить" type="button" id="callback_submit">
       </div>
       <div class="error_form"></div>
       <input type="hidden" name="af_action" value="6564df466cd7f5f5ad15383c544be5d5" />
@@ -21,7 +23,9 @@
 
 
 <div id="feedback_2">
-   <form id="dspriem-form " class="ajax_form" method="post" enctype="multipart/form-data" novalidate="">
+      
+   <form id="vizit" class="ajax_form" method="post" enctype="multipart/form-data" novalidate="" >
+      {{ csrf_field() }}
       <div class="form-head">Записаться на прием</div>
       <div class="form__upper__text">Оставьте свои контактные данные и менеджер свяжется с вами для выбора специалиста и уточнения времени.</div>
       <div class="field-2">
@@ -30,7 +34,7 @@
       </div>
       <div class="field-3">
          <label for="field-id238580">Ваш телефон <span class="required">*</span></label>
-         <input id="field-id238580" name="field-name238581" placeholder="+ 7 (___) ___-__-__" value="" required="" pattern="^\+?[\d,\-,(,),\s]+$" data-dsform-mask="+7 (999) 999-99-99" type="text">
+         <input id="field-id238580" name="phone" placeholder="+ 7 (___) ___-__-__" value="" required="" pattern="^\+?[\d,\-,(,),\s]+$" data-dsform-mask="+7 (999) 999-99-99" type="text">
       </div>
       <div class="field-4">
          <label for="youemail">Ваш e-mail</label>
@@ -38,15 +42,15 @@
       </div>
       <div class="field-5">
          <label for="mydatepicker">Дата приема <span class="required">*</span></label>
-         <input id="mydatepicker" required="" name="datapriema-name"  value="" placeholder="" type="text">
+         <input id="mydatepicker" required="" name="datapriema"  value="" placeholder="" type="text">
       </div>
       <div class="field-6">
          <label for="mytimepicker">Время приема <span class="required">*</span></label>
-         <input id="mytimepicker" required="" name="time-name" placeholder=""  value="" data-dsform-mask="99-99" type="text">
+         <input id="mytimepicker" required="" name="time" placeholder=""  value="" data-dsform-mask="99-99" type="text">
       </div>
       <div class="field-7 fromcall inline">
          <label>Вид приема</label>
-         <select name="vid-priema-name" value="">
+         <select name="vid-priema" value="">
             <option value="Лечебный" selected="">Лечебный</option>
             <option value="Хирургический">Хирургический</option>
             <option value="Ортодонтический">Ортодонтический</option>
@@ -54,7 +58,7 @@
       </div>
       <div class="field-8 fromcall inline">
          <label>Вариант подтверждения заявки</label>
-         <select name="var-validate-zayavka" value="">
+         <select name="validate-zayavka" value="">
             <option value="Звонок от менеджера" selected="">Звонок от менеджера</option>
             <option value="Электронная почта">Электронная почта</option>
             <option value="Смс-сообщение">Смс-сообщение</option>
@@ -62,7 +66,7 @@
       </div>
       <div class="policy" style="text-align:center;font-size:12px;">Нажимая на кнопку "Отправить", Вы соглашаетесь с<br> <a href="/soglasie-na-obrabotku-personalnih-dannyh.html">правилами обработки персональных данных</a>.</div>
       <div class="field-11 buttonform">
-         <input value="Отправить" type="submit">
+         <input value="Отправить" type="button" id="vizit_submit">
       </div>
       <div class="error_form"></div>
       <input type="hidden" name="af_action" value="898aaadc883fb1a1f3cbc848162a2737" />
@@ -95,8 +99,43 @@
             $(this).hide();
             $('.window').hide();
             }); 
-           });  
+           }); 
+
+         $( document ).ready(function() {
+            $("#vizit_submit").click(
+              function(){
+                 sendAjaxForm('result_form', 'vizit', '/mail/vizit','#feedback_2');
+                 return false; 
+              }
+           );
+        });
+
+        $( document ).ready(function() {
+         $("#callback_submit").click(
+           function(){
+              sendAjaxForm('result_form', 'callback', '/mail/callback', '#feedback');
+              return false; 
+           }
+        );
+     });
+         
+        function sendAjaxForm(result_form, ajax_form, url, form_block) {
+            $.ajax({
+                url:     url, //url страницы (action_ajax_form.php)
+                type:     "POST", //метод отправки
+                dataType: "html", //формат данных
+                data: $("#"+ajax_form).serialize(),  // Сеарилизуем объект
+                success: function(response) { //Данные отправлены успешно
+               $(form_block).hide(); 
+               $('.fancybox-overlay').hide();
+               },
+               error: function(response) { // Данные не отправлены
+                    
+               }
+            });
+        }
     </script>
+
 
 <script src="/js/common.js"></script>
 <script src="/js/jquery.colorbox.js"></script>

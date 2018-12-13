@@ -4,7 +4,9 @@
             <h1>Стоматология &laquo;ОРТОДОНТиЯ&raquo; &mdash; здоровье и красота вашей улыбки!</h1>
 
             <div class="pers-wrapper-main clearfix">
-                <div class="col-xs-4"><img alt="Главный врач стоматологической клиники Никитина Юлия Ивановна" class="img-responsive" src="/img/pers/1.png" title="Никитина Юлия Ивановна" /></div>
+                <div class="col-xs-4">
+                    <img alt="Главный врач стоматологической клиники Никитина Юлия Ивановна" class="img-responsive" src="/img/crew/1.png" title="Никитина Юлия Ивановна" />
+                </div>
 
                 <div class="col-xs-8">
                     <div class="pers-title-main">Мы были первыми и остаемся лидерами в ортодонтии</div>
@@ -23,7 +25,7 @@
                             <div class="pers-main-name">Никитина Юлия Ивановна</div>
                         </div>
 
-                        <div class="col-xs-6"><img alt="Подпись" class="img-responsive pull-right" src="/img/pers/1p.png" title="Подпись" /></div>
+                        <div class="col-xs-6"><img alt="Подпись" class="img-responsive pull-right" src="/img/1p.png" title="Подпись" /></div>
                     </div>
                 </div>
             </div>

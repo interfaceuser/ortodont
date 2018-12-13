@@ -7,7 +7,7 @@
             <div class="clearfix">
                 <div class="advantages__wrapper">
                     <div class="advantages__item">
-                        <div class="advantages__item__img"><img alt="Комплекс услуг" src="/img/check.svg" /></div>
+                        <div class="advantages__item__img"><img alt="Комплекс услуг" src="/img/preim/check.svg" /></div>
 
                         <div class="advantages__item__text">
                             <p>Полный комплекс стоматлогических услуг</p>
@@ -15,7 +15,7 @@
                     </div>
 
                     <div class="advantages__item">
-                        <div class="advantages__item__img"><img alt="Индивидуальный клиент" src="/img/hands.svg" /></div>
+                        <div class="advantages__item__img"><img alt="Индивидуальный клиент" src="/img/preim/hands.svg" /></div>
 
                         <div class="advantages__item__text">
                             <p>Индивидуальный подход к каждому пациенту</p>

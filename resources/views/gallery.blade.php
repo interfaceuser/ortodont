@@ -27,17 +27,11 @@
                 Наши работы
             </div>
             <div class="modulebody">
-                <div class="twentytwenty-container"><img alt="Наши работы - До" title="ДО" class="img-responsive center-block" src="/img/e0958ca3fa415d1180c5f5d885f77df4.jpg" /> <img alt="Наши работы - После" title="ПОСЛЕ" class="img-responsive center-block" src="/img/0aca66f88ea20b68fbf2976830c60d52.jpg" /></div>
+                <div class="">
+                    <img alt="Наши работы - До" title="ДО" class="img-responsive center-block" src="/img/works.jpg" /> 
 
                 <p><a class="btn-link-photo" href="nashi-raboty">Еще работы</a>
-                    <script>
-                        $(window).load(function() {
-                            $(".twentytwenty-container").twentytwenty({
-                                default_offset_pct: 0.5
-                            });
-                        });
-
-                    </script>
+                   
                 </p>
             </div>
 
