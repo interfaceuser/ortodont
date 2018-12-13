@@ -9,6 +9,7 @@ use App\news;
 use App\param;
 use App\service;
 use App\slider;
+use App\tour;
 use Mail;
 use yii\web\Request;
 
@@ -23,8 +24,10 @@ class mainController extends Controller
         $cert = cert::orderBy('order_id', 'desc')->get();
         $gallery = gallery::orderBy('order_id', 'desc')->get();
         $news = news::orderBy('order_id', 'desc')->get();
+        $tour = tour::orderBy('order_id', 'desc')->get();
         return view('main', ['top_slider' => $slider, 'services' => $services,
-            'crew' => $crew, 'param' => $param, 'cert' => $cert, 'gallery' => $gallery, 'news' => $news]);
+            'crew' => $crew, 'param' => $param, 'cert' => $cert, 'gallery' => $gallery, 'news' => $news,
+            'tour' => $tour]);
 
     }
     /**
