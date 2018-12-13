@@ -6,36 +6,15 @@
             </div>
             <div class="modulebody">
                 <div class="photos-wrapper clearfix">
-                    <div class="photos-bolock">
-                        <a class="fancybox" href="/img/photos/medium/0c2881243185c816c2a398c31138bd0e.jpg" title="2">
-<img class="img-responsive center-block" src="/img/photos/small/0c2881243185c816c2a398c31138bd0e.jpg" alt="2" />
-</a>
-                    </div>
-                    <div class="photos-bolock">
-                        <a class="fancybox" href="/img/photos/medium/c6c51fb8fa44dd24cabac14583aea928.jpg" title="4">
-<img class="img-responsive center-block" src="/img/photos/small/c6c51fb8fa44dd24cabac14583aea928.jpg" alt="4" />
-</a>
-                    </div>
-                    <div class="photos-bolock">
-                        <a class="fancybox" href="/img/photos/medium/10b3955fb6845d6e8084bdeb969a5f0f.jpg" title="5">
-<img class="img-responsive center-block" src="/img/photos/small/10b3955fb6845d6e8084bdeb969a5f0f.jpg" alt="5" />
-</a>
-                    </div>
-                    <div class="photos-bolock">
-                        <a class="fancybox" href="/img/photos/medium/44206677beb4aec177d020fcae1f9b23.jpg" title="6">
-<img class="img-responsive center-block" src="/img/photos/small/44206677beb4aec177d020fcae1f9b23.jpg" alt="6" />
-</a>
-                    </div>
-                    <div class="photos-bolock">
-                        <a class="fancybox" href="/img/photos/medium/207fe6c44a93f66fc9fec4d4268c038b.jpg" title="AaTP4Hf5-hY">
-<img class="img-responsive center-block" src="/img/photos/small/207fe6c44a93f66fc9fec4d4268c038b.jpg" alt="AaTP4Hf5-hY" />
-</a>
-                    </div>
-                    <div class="photos-bolock">
-                        <a class="fancybox" href="/img/photos/medium/0820f727e837a45b8ee251120afb3643.jpg" title="bfkeDIb03fs">
-<img class="img-responsive center-block" src="/img/photos/small/0820f727e837a45b8ee251120afb3643.jpg" alt="bfkeDIb03fs" />
-</a>
-                    </div>
+                    @foreach ($gallery as $item)
+                        <div class="photos-bolock">
+                            <a class="fancybox" href="/img{{$item->img_big}}" title="/img{{$item->img_title}}">
+                                <img class="img-responsive center-block" src="/img{{$item->img}}" alt="{{$item->img_big_alt}}" />
+                            </a>
+                        </div>
+                    @endforeach
+                    
+                    
                     <a href="/pacientam/photos/" class="btn-link-photo">Еще фото</a>
                 </div>
             </div>
