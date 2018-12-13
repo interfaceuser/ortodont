@@ -127,7 +127,8 @@
                 data: $("#"+ajax_form).serialize(),  // Сеарилизуем объект
                 success: function(response) { //Данные отправлены успешно
                $(form_block).hide(); 
-               $('.fancybox-overlay').hide();
+               //$('.fancybox-overlay').hide();
+               $.fancybox.close();
                },
                error: function(response) { // Данные не отправлены
                     

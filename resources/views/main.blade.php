@@ -16,7 +16,7 @@
 	<meta name="description" content="Стоматологическая клиника «ОРТОДОНТиЯ» предлагает лучшие методы лечения и зубной ортодонтии в Краснодаре. Платная стоматология в нашей клинике – это индивидуальный подход, доступные цены и высокое качество. Подробности на сайте и по телефону 8 (800) 250-57-74." />
 	
 
-{{--  	<script type="text/javascript">
+	<script type="text/javascript">
 		$(document).ready(function() {
 			$(".modalbox").fancybox();
 			$("#f_contact").submit(function() {
@@ -33,7 +33,7 @@
 			});
 		});
 
-	</script>  --}}
+	</script>
 
 
 <link rel="stylesheet" href="/css/default.css" type="text/css" />
