@@ -13,7 +13,7 @@ class Crew extends Migration
      */
     public function up()
     {
-        Schema::create('crew', function (Blueprint $table) {
+        Schema::create('crews', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name'); //техническое имя
             $table->string('img'); //путь к картинке
@@ -35,6 +35,6 @@ class Crew extends Migration
      */
     public function down()
     {
-        Schema::drop('crew');
+        Schema::drop('crews');
     }
 }

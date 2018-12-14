@@ -13,7 +13,7 @@ class Slider extends Migration
      */
     public function up()
     {
-        Schema::create('slider', function (Blueprint $table) {
+        Schema::create('sliders', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name'); //техническое имя
             $table->string('img'); //путь к картинке
@@ -37,6 +37,6 @@ class Slider extends Migration
      */
     public function down()
     {
-        Schema::drop('slider');
+        Schema::drop('sliders');
     }
 }

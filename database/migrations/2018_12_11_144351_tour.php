@@ -13,7 +13,7 @@ class Tour extends Migration
      */
     public function up()
     {
-        Schema::create('tour', function (Blueprint $table) {
+        Schema::create('tours', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name'); //техническое имя
             $table->string('img'); //путь к картинке
@@ -33,6 +33,6 @@ class Tour extends Migration
      */
     public function down()
     {
-        Schema::drop('tour');
+        Schema::drop('tours');
     }
 }
